@@ -1,0 +1,21 @@
+# Ignorar el entorno virtual
+ML-Movies/
+_MACOSX/
+movie_dataset_public_final/
+
+# Archivos de compilación de Python
+*.pyc
+__pycache__/
+*.pyo
+
+# Archivos y carpetas de configuración del sistema
+.DS_Store
+.idea/
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de datos (si aplica)
+data/
