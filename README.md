@@ -12,6 +12,7 @@ Para este proyecto, se busca realizar un sistema de recomendación de películas
 
 ## Links del DataSet utilizado
 **Nota:** Los datos utilizados al ser tan extensos (32Millones) no es posible agregarlo en el repositorio, por lo que en el proyecto debera añadirse la carpeta **data/** en donde instalara los DataSets para su uso en el proyecto.
+
 **Pagina del DataSet:** [MovieLens](https://grouplens.org/datasets/movielens/)
 
 **Documentacion del DataSet** [Documentation](https://files.grouplens.org/datasets/tag-genome-2021/genome_2021_readme.txt)
