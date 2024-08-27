@@ -12,9 +12,9 @@ Para este proyecto, se busca realizar un sistema de recomendación de películas
 
 ## Links del DataSet utilizado
 **Nota:** Los datos utilizados al ser tan extensos (32Millones) no es posible agregarlo en el repositorio, por lo que en el proyecto debera añadirse la carpeta **data/** en donde instalara los DataSets para su uso en el proyecto.
-**Pagina del DataSet:** [MovieLens]([https://duckduckgo.com](https://grouplens.org/datasets/movielens/))
+**Pagina del DataSet:** [MovieLens](https://grouplens.org/datasets/movielens/)
 
-**Documentacion del DataSet** [[MovieLens]((https://files.grouplens.org/datasets/tag-genome-2021/genome_2021_readme.txt))]
+**Documentacion del DataSet** [Documentation](https://files.grouplens.org/datasets/tag-genome-2021/genome_2021_readme.txt)
 
 # Se busca:
 -   *Perfil de Usuario Personalizado:* construir un perfil de usuario basado en las películas valoradas previamente, para capturar las preferencias en términos de etiquetas relevantes.
