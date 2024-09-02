@@ -1,23 +1,27 @@
-# Proyecto de Recomendación de Películas Basado en Contenido
-Para este proyecto, se busca realizar un sistema de recomendación de películas basado en contenido, utilizando utilizando datos crudos de varias fuentes como MovieLens - IMDB - encuestas de usuarios, el sistema proporcionará recomendaciones personalizadas a los usuarios basándose en sus preferencias de contenido, utilizando un enfoque de MLOps para automatizar el desarrollo, despliegue y monitoreo de modelos de machine learning.
+# Proyecto de MLOps: Análisis de Sentimientos en Reseñas de Películas
 
-# Datos utilizados
-*MovieLens Tag Genome Dataset 2021:* El proyecto utiliza datos en formato JSON, bajados de MovieLens Tag Genome Dataset 2021, los datos incluyen:
--   *metadata.json*: Contiene información de películas como el elenco, directores y calificación promedio.
--   *ratings.json*: Contiene las calificaciones dadas por los usuarios a las películas en MovieLens.
--   *reviews.json*: Contiene reseñas de películas recopiladas de IMDB.
--   *survey_answers.json*: Incluye respuestas de usuarios a encuestas sobre la relevancia de ciertas etiquetas para diferentes películas.
--   *tag_count.json*: Contabiliza cuántas veces los usuarios han agregado etiquetas a las películas.
--   *tags.json*: Contiene la lista de etiquetas e identificadores utilizados en el dataset
+## Descripción del Proyecto
 
-## Links del DataSet utilizado
-**Nota:** Los datos utilizados al ser tan extensos (32Millones) no es posible agregarlo en el repositorio, por lo que en el proyecto debera añadirse la carpeta **data/** en donde instalara los DataSets para su uso en el proyecto.
+Este proyecto tiene bysca realizar un **análisis de sentimientos** en un conjunto de datos de reseñas de películas extraído de IMDB, el cual contiene 50,000 reseñas altamente polarizadas. El análisis de sentimientos es una técnica utilizada en el procesamiento del lenguaje natural (NLP) que se enfoca en determinar la polaridad emocional expresada en un texto, ya sea positiva o negativa.
 
-**Pagina del DataSet:** [MovieLens](https://grouplens.org/datasets/movielens/)
+## Dataset
 
-**Documentacion del DataSet** [Documentation](https://files.grouplens.org/datasets/tag-genome-2021/genome_2021_readme.txt)
+El dataset de IMDB utilizado en este proyecto contiene 50,000 reseñas de películas divididas en:
 
-# Se busca:
--   *Perfil de Usuario Personalizado:* construir un perfil de usuario basado en las películas valoradas previamente, para capturar las preferencias en términos de etiquetas relevantes.
--   *Similitud entre Películas:* identificar películas similares en términos de contenido en base a las etiquetas más relevantes.
--   *Recomendación Basada en Contenido:* generar recomendaciones  que coincidan con los intereses de contenido específicos de cada usuario.
+- **25,000 reseñas para entrenamiento**
+- **25,000 reseñas para pruebas**
+
+## Objetivo
+
+El objetivo principal de este proyecto es **predecir el número de reseñas positivas y negativas dado una película particular**.
+
+## Variable Objetivo
+
+La variable objetivo (a predecir) en este proyecto es la **polaridad de la reseña**: positiva o negativa.
+
+Cada reseña está etiquetada como positiva o negativa, lo que permite utilizar este dataset para tareas de clasificación binaria.
+
+
+## Documentacion
+**Pagina del DataSet utilizado:** [https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data)
+
