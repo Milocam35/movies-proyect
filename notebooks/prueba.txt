@@ -1,0 +1,29 @@
+Que se hace en los notebooks: El analisis, el entrenamiento documentandolo, visualizacion del analisis
+Por cada analisis o documento que cree debe existir un notebook, por cada version del proyecto
+
+En el notebook: en pyinb se va a entrenar el modelo, con su documentacion respectiva, una vez satisfechos con nuestro modelo, la accuracy sea favorable. 
+
+Application : Una vez que tenemos nuestro modelo entrenado, lo vamos a aplicar a nuestro dataset de prueba
+
+Se tienen que versionar los datos, datos en bruto, datos sin procesar,  datos procesados, datos de prueba, datos de entrenamiento
+
+RoadDataL: dataset
+DataFrame: datos procesados
+
+data: raw_data, data_frame
+
+Reduccion de dimensionalidad, transformacion de los datos
+
+1. Pasar de json a dataFrame-Matriz: pandas
+2. Preprocesamiento de datos: pandas, numpy, scipy, sklearn
+3. Transformacion de datos: pandas, numpy, scipy, sklearn
+4. Reduccion de dimensionalidad: pandas, numpy, scipy, sklearn
+
+5. Entrenamiento del modelo
+6. Evaluacion del modelo
+
+
+Para el proximo martes: El modelo ya entrenado
+
+razones por las cuales definieron las variables y cual es la variable categorica, en el notebook
+
