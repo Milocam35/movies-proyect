@@ -1,5 +1,6 @@
 # Ignorar el entorno virtual
 ML-Movies/
+venv/
 _MACOSX/
 movie_dataset_public_final/
 
